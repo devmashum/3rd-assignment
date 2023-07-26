@@ -141,19 +141,22 @@
         </div>
         <!-- Slider Section end -->
         <!-- countdown section -->
-        <div class="flex items-center ">
+        <div class="lg:flex lg:items-center ">
             <div class="flex-1">
-                <h2 class="text-5xl font-extrabold lg:mb-4 lg:mt-4">Deal of the day</h2>
-                <p class="text-2">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                <h2 class="text-5xl font-extrabold lg:mb-4 lg:mt-4 text-center lg:text-start mt-2">Deal of the day</h2>
+                <p class="text-2 text-center my-3 lg:text-start">Contrary to popular belief, is not simply random text.
+                    It has roots
+                    in a
+                    piece of
                     classical
                     Latin
                     literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
-            <div class="flex-1 flex justify-end ">
-                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex-1 lg:flex justify-end  ">
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center ">
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
+                        <span class="countdown font-mono text-5xl ">
                             <span style="--value:30;"></span>:
                         </span>
                         days
@@ -184,8 +187,120 @@
     </header>
 
 
-    <main>
+    <main class="font-lato max-w-screen-xl mx-auto">
 
+        <!-- Cards Section -->
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5 my-10 ">
+            <!-- Card 1 -->
+            <div class="card bg-base-100 shadow-xl bg-white border-[1px] ">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit6.png" alt="Apple" />
+
+                </figure>
+                <div class="card-body items-center text-center divide-y">
+                    <h3 class="font-bold">12,90$ - 18,85$</h3>
+                    <hr class="text-gray-500">
+                    <h2 class="card-title text-lg">Apple</h2>
+                    <!--  -->
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <!--  -->
+                    <div class="card-actions">
+                        <button class="text-[#F85559;] text-lg">Details</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card bg-base-100 shadow-xl bg-white border-[1px] ">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit7.png" alt="Orange" />
+
+                </figure>
+                <div class="card-body items-center text-center divide-y">
+                    <h3 class="font-bold">12,90$ - 18,85$</h3>
+                    <hr class="text-gray-500">
+                    <h2 class="card-title text-lg">Orange</h2>
+                    <!--  -->
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <!--  -->
+                    <div class="card-actions">
+                        <button class="text-[#F85559;] text-lg">Details</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card bg-base-100 shadow-xl bg-white border-[1px] ">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit8.png" alt="Red Dragon" />
+
+                </figure>
+                <div class="card-body items-center text-center divide-y">
+                    <h3 class="font-bold">12,90$ - 18,85$</h3>
+                    <hr class="text-gray-500">
+                    <h2 class="card-title text-lg">Red Dragon</h2>
+
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="text-[#F85559;] text-lg">Details</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card bg-base-100 shadow-xl bg-w hite border-[1px] ">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit9.png" alt="Banana" />
+
+                </figure>
+                <div class="card-body items-center text-center divide-y">
+                    <h3 class="font-bold">12,90$ - 18,85$</h3>
+                    <hr class="text-gray-500">
+                    <h2 class="card-title text-lg">Banana</h2>
+                    <!--  -->
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <!--  -->
+                    <div class="card-actions">
+                        <button class="text-[#F85559;] text-lg">Details</button>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- Cards Section end -->
+
+        <div class=" text-center flex justify-center">
+            <button class=" btn py-10 flex text-centers bg-[#F85559;] text-white">Show Alle</button>
+        </div>
     </main>
 
     <footer>
